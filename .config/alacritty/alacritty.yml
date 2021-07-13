@@ -1,0 +1,164 @@
+window:
+  # Window dimensions (changes require restart)
+  #
+  # Specified in number of columns/lines, not pixels. If both are zero this
+  # setting is ignored.
+  dimensions:
+    columns: 80
+    lines: 25
+
+  # Window padding (changes require restart)
+  #
+  # Blank space added around the window in pixels. This padding is not scaled by
+  # DPI and the specified value is always added at both opposing sides.
+  padding:
+    x: 5
+    y: 5
+
+  # Window decorations
+  #
+  # Available values:
+  # - full: borders and title bar
+  # - none: neither borders nor title bar
+  # - transparent: title bar, transparent background and title bar buttons
+  # - buttonless: title bar, transparent background, but no title bar buttons
+  decorations: none
+
+  
+  # Spread additional padding evenly around the terminal content.
+  dynamic_padding: true
+
+  # Startup Mode (changes require restart)
+  #
+  # Values for `startup_mode`:
+  #   - Windowed
+  #   - Maximized
+  #   - Fullscreen
+  #
+  # Values for `startup_mode` (macOS only):
+  #   - SimpleFullscreen
+  startup_mode: Windowed
+
+# Background opacity
+background_opacity: 0.8
+
+shell:
+  program: /usr/bin/zsh
+  args:
+    - -l
+    - -c
+    - "tmux attach || tmux"
+
+cursor:
+  # Cursor style
+  #
+  # Values for 'style':
+  #   - ▇ Block
+  #   - _ Underline
+  #   - | Beam
+  style: Beam
+
+  # If this is `true`, the cursor will be rendered as a hollow box when the
+  # window is not focused.
+  unfocused_hollow: true
+
+# Colors (Ubuntu)
+colors:
+  # Default colors
+  primary:
+    background: '#300a24'
+    foreground: '#eeeeec'
+
+  # Normal colors
+  normal:
+    black:   '#2e3436'
+    red:     '#cc0000'
+    green:   '#4e9a06'
+    yellow:  '#c4a000'
+    blue:    '#3465a4'
+    magenta: '#75507b'
+    cyan:    '#06989a'
+    white:   '#d3d7cf'
+
+  # Bright colors
+  bright:
+    black:   '#555753'
+    red:     '#ef2929'
+    green:   '#8ae234'
+    yellow:  '#fce94f'
+    blue:    '#729fcf'
+    magenta: '#ad7fa8'
+    cyan:    '#34e2e2'
+    white:   '#eeeeec'
+    
+
+ #colors (monokai pro)
+#colors:
+   #default colors
+  #primary:
+    #background: '#2d2a2e'
+    #foreground: '#fcfcfa'
+
+   #normal colors
+  #normal:
+    #black:   '#403e41'
+    #red:     '#ff6188'
+    #green:   '#a9dc76'
+    #yellow:  '#ffd866'
+    #blue:    '#fc9867'
+    #magenta: '#ab9df2'
+    #cyan:    '#78dce8'
+    #white:   '#fcfcfa'
+
+   #bright colors
+  #bright:
+    #black:   '#727072'
+    #red:     '#ff6188'
+    #green:   '#a9dc76'
+    #yellow:  '#ffd866'
+    #blue:    '#fc9867'
+    #magenta: '#ab9df2'
+    #cyan:    '#78dce8'
+    #white:   '#fcfcfa'
+
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>"
+
+  # When set to `true`, selected text will be copied to the primary clipboard.
+  save_to_clipboard: true
+
+# Font configuration (changes require restart)
+font:
+  # The normal (roman) font face to use.
+  # Style can be specified to pick a specific face.
+  normal:
+     family: "Fira Code"
+     style: "regular"
+
+  # The bold font face
+  bold:
+     family: "Fira Code"
+     style: "regular"
+
+  # The italic font face
+  italic:
+     family: "Fira Code"
+     style: "regular"
+
+  # Point size of the font
+  size: 11.0
+
+  # Offset is the extra space around each character. offset.y can be thought of
+  # as modifying the linespacing, and offset.x as modifying the letter spacing.
+  offset:
+    x: 0
+    y: 0
+
+  # Glyph offset determines the locations of the glyphs within their cells with
+  # the default being at the bottom. Increase the x offset to move the glyph to
+  # the right, increase the y offset to move the glyph upward.
+  glyph_offset:
+    x: 0
+    y: 0
+
+
