@@ -25,3 +25,7 @@ source ~/.config/nvim/nerdtree.vim
 
 colorscheme sonokai
 set mouse=a
+set textwidth=0
+set wrapmargin=0
+set wrap
+set linebreak 

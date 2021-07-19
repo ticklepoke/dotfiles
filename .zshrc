@@ -81,6 +81,7 @@ plugins=(
     git
     zsh-autosuggestions
     zsh-interactive-cd
+    colored-man-pages
 )
 
 source $ZSH/oh-my-zsh.sh

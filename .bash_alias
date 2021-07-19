@@ -47,3 +47,6 @@ alias gcam='git commit --amend'
 
 # git for dotfiles
 alias git-dotfile='/usr/bin/git --git-dir=$HOME/.cfg/.git/ --work-tree=$HOME'
+
+# Better copy
+alias xclip='xclip -selection c'
