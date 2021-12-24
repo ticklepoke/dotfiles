@@ -1,0 +1,13 @@
+alias ll='ls -la'
+
+alias gpf='git push --force-with-lease'
+alias gpff='git push --force'
+alias gs='git status'
+alias gl='git log'
+alias gcam='git commit --amend'
+
+alias cat='bat'
+
+alias vi='nvim'
+
+alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
