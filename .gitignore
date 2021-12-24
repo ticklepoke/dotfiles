@@ -13,3 +13,5 @@ Thumbs.db
 venv
 node_modules
 .sass-cache
+
+*nvim/plugged/*
