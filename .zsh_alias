@@ -9,5 +9,3 @@ alias gcam='git commit --amend'
 alias cat='bat'
 
 alias vi='nvim'
-
-alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
