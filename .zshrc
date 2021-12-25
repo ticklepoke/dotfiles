@@ -125,3 +125,5 @@ if [ -f '/Users/nigel/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/nigel/goo
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/nigel/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/nigel/google-cloud-sdk/completion.zsh.inc'; fi
+
+export PATH="$HOME/Library/Python/3.8/bin:$PATH"
