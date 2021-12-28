@@ -6,6 +6,7 @@ source ~/.config/nvim/vimrooter.vim
 source ~/.config/nvim/nerdcommentor.vim
 source ~/.config/nvim/fugitive.vim
 source ~/.config/nvim/telescope.vim
+source ~/.config/nvim/airline.vim
 
 
 luafile ~/.config/nvim/diffview.lua
