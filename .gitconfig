@@ -1,6 +1,7 @@
 [core]
 	editor = nvim
 	pager = delta
+	excludesfile = /Users/nigel/.gitignore
 
 [interactive]
     diffFilter = delta --color-only --features=interactive
