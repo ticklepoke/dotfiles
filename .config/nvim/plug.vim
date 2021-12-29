@@ -1,3 +1,9 @@
+let g:plug_vim = '~/.local/share/nvim/site/autoload/plug.vim'
+if !filereadable(glob(g:plug_vim))
+	execute 'silent !curl -fLo ' . g:plug_vim . ' --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+	autocmd VimEnter * PlugInstall
+endif
+
 call plug#begin('~/.config/nvim/plugged')
 " UI
 Plug 'rafi/awesome-vim-colorschemes'
@@ -21,6 +27,7 @@ Plug 'nvim-lua/completion-nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'windwp/nvim-autopairs'
+Plug 'williamboman/nvim-lsp-installer'
 
 " File management
 Plug 'airblade/vim-rooter'
