@@ -2,6 +2,8 @@ alias ll='ls -la'
 
 alias gpf='git push --force-with-lease'
 alias gpff='git push --force'
+alias gpfu='git push --force-with-lease -u origin'
+alias gpu='git push -u origin'
 alias gs='git status'
 alias gl='git log'
 alias gcam='git commit --amend'
