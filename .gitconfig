@@ -40,5 +40,18 @@
 	username = ticklepoke
 [init]
 	defaultBranch = master
+
 [alias]
 	count-lines = "! git log --author=\"$1\" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf \"added lines: %s, removed lines: %s, total lines: %s\\n\", add, subs, loc }' #"
+    sc = "smart-checkout"
+    pf = "push --force-with-lease"
+    pff = "push --force"
+    pfu = "push --force-with-lease -u origin"
+    pu = "push -u origin"
+    s = "status"
+    l = "log --oneline"
+    cam = "commit --amend"
+    br = "branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate"
+    cheat = "! git config --get-regexp ^alias. | sed -e 's/^alias.//' -e 's/ /\t= /'"
+    save = "!git add -A && git commit -m 'tmp: commit save point'"
+    undo = "reset HEAD~1 --mixed"
