@@ -14,6 +14,7 @@ luafile ~/.config/nvim/autopairs.lua
 luafile ~/.config/nvim/treesitter.lua
 luafile ~/.config/nvim/lsp-config.lua
 luafile ~/.config/nvim/lsp-cmp.lua
+luafile ~/.config/nvim/scrollbar.lua
 
 
 if has('termguicolors')

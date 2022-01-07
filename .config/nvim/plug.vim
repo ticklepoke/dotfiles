@@ -48,6 +48,7 @@ Plug 'nvim-telescope/telescope.nvim'
 " Misc
 Plug 'preservim/nerdcommenter'
 Plug 'nvim-lua/plenary.nvim'
+Plug 'petertriho/nvim-scrollbar'
 
 
 call plug#end()
