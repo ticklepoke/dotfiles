@@ -138,3 +138,11 @@ lspconfig.yamlls.setup {
 --lspconfig.jsonls.setup {
     --on_attach = on_attach,
 --}
+
+require'lspconfig'.ocamllsp.setup{
+    on_attach = on_attach,
+}
+
+require'lspconfig'.hls.setup{
+    on_attach = on_attach,
+}

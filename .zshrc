@@ -127,3 +127,10 @@ if [ -f '/Users/nigel/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/nigel/goo
 if [ -f '/Users/nigel/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/nigel/google-cloud-sdk/completion.zsh.inc'; fi
 
 export PATH="$HOME/Library/Python/3.8/bin:$PATH"
+
+# opam configuration
+[[ ! -r /Users/nigel/.opam/opam-init/init.zsh ]] || source /Users/nigel/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
+
+# haskell
+export PATH="$HOME/.ghcup/bin:$PATH"
+export PATH="/opt/homebrew/opt/llvm@11/bin:$PATH"
