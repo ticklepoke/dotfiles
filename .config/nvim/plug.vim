@@ -10,6 +10,7 @@ Plug 'rafi/awesome-vim-colorschemes'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'kyazdani42/nvim-web-devicons'
+Plug 'kyazdani42/nvim-tree.lua'
 Plug 'romgrk/barbar.nvim'
 Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
@@ -46,7 +47,7 @@ Plug 'folke/trouble.nvim'
 
 " File management
 Plug 'airblade/vim-rooter'
-Plug 'preservim/nerdtree'
+"Plug 'preservim/nerdtree'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-lua/plenary.nvim'
 

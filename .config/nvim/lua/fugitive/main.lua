@@ -1,5 +1,5 @@
 require("utils")
-map("n", "<leader>gs", ":G | NERDTreeClose<CR>")
+map("n", "<leader>gs", ":G | NvimTreeClose<CR>")
 
 -- Git lens
 vim.g.blamer_enabled = 1
