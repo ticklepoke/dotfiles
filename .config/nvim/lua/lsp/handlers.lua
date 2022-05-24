@@ -88,6 +88,18 @@ M.on_attach = function(client, bufnr)
 	if client.name == "tsserver" then
 		client.resolved_capabilities.document_formatting = false
 	end
+
+	if client.name == "rust_analyzer" then
+		-- HACK: manually attach auto formatting for rust
+		vim.api.nvim_create_autocmd("BufWritePre", {
+			group = augroup,
+			buffer = bufnr,
+			callback = function()
+				-- on 0.8, you should use vim.lsp.buf.format({ bufnr = bufnr }) instead
+				vim.lsp.buf.formatting_sync()
+			end,
+		})
+	end
 	lsp_keymaps(bufnr)
 	lsp_highlight_document(client)
 end
