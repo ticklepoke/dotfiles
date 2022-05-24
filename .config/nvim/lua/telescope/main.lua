@@ -1,7 +1,7 @@
 require("utils")
 
-map("n", "<C-p>", "<cmd>Telescop find_files<cr>")
-map("n", "<C-f>", "<cmd>Telescop live_grep<cr>")
+map("n", "<C-p>", "<cmd>Telescope find_files<cr>")
+map("n", "<C-f>", "<cmd>Telescope live_grep<cr>")
 
 local present, telescope = pcall(require, "telescope")
 
