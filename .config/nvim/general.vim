@@ -1,3 +1,5 @@
+" NOTE: this has to remain as a vimfile as intellij and vscode imports this
+
 syntax on
 
 set hidden
