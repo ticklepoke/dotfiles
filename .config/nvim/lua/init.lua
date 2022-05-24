@@ -14,6 +14,7 @@ require("telescope.main")
 require("treesitter")
 require("trouble.main")
 require("vimrooter.main")
+require("whichkey")
 
 vim.cmd("colorscheme sonokai")
 

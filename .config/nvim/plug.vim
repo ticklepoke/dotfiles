@@ -55,6 +55,8 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'preservim/nerdcommenter'
 Plug 'petertriho/nvim-scrollbar'
 
+" Which key
+Plug 'folke/which-key.nvim'
 
 call plug#end()
 
