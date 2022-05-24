@@ -2,10 +2,8 @@ source ~/.config/nvim/general.vim
 source ~/.config/nvim/plug.vim
 
 source ~/.config/nvim/fugitive.vim
-source ~/.config/nvim/nerdcommentor.vim
 source ~/.config/nvim/nerdtree.vim
 source ~/.config/nvim/tabbar.vim
-" source ~/.config/nvim/telescope.vim
 source ~/.config/nvim/vimrooter.vim
 
 luafile ~/.config/nvim/lua/init.lua
