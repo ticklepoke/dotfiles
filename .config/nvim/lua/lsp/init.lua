@@ -3,7 +3,7 @@ if not status_ok then
 	return
 end
 
-package.path = './?.lua;' .. package.path
+package.path = "./?.lua;" .. package.path
 require("lsp.lsp-installer")
 require("lsp.handlers").setup()
 require("lsp.null-ls.main")
