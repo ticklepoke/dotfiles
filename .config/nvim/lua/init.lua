@@ -2,9 +2,11 @@ require("autopairs")
 require("barbar.main")
 require("cmp.main")
 require("diffview.main")
-require("gitsigns.main")
 require("fugitive.main")
+require("gitsigns.main")
 require("icons")
+require("impatient.main")
+require("keymaps")
 require("lsp")
 require("lualine.main")
 require("nerdcommentor.main")
@@ -28,8 +30,3 @@ vim.opt.wrap = true
 vim.opt.linebreak = true
 
 vim.g.indentLine_char = "▏"
-
-require("utils")
-
-map("v", "<", "<gv")
-map("v", ">", ">gv")
