@@ -38,9 +38,13 @@ Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'saadparwaiz1/cmp_luasnip' 
 
+" LateX
+Plug 'lervag/vimtex'
+
 " Snippets
 Plug 'L3MON4D3/LuaSnip' 
 Plug 'rafamadriz/friendly-snippets' 
+"Plug 'SirVer/ultisnips'
 
 " Diagnostics
 Plug 'folke/trouble.nvim'

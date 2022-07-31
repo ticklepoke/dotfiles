@@ -15,3 +15,6 @@ map("v", "p", '"_dP')
 --map("x", "K", ":move '<-2<CR>gv-gv")
 map("x", "<C-j>", ":move '>+1<CR>gv-gv")
 map("x", "<C-k>", ":move '<-2<CR>gv-gv")
+
+-- remove hlsearch
+map("n", "<esc><esc>", ":nohlsearch<CR>")
